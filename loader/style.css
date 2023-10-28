@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .loader{
+    margin: 40px auto;
      border: 16px solid #3f3f3f;
      border-top: 16px solid #3498db;
      border-radius: 50%;
