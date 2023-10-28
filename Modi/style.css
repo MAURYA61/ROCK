@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    /* height: 200vh; */
+    margin: 0 auto;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4,
+     #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border: 5px solid brown; ;
+}
+.top-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h1{
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: 1px 2px 3px lightcyan;
+}
+h4{
+    padding-right: 10px;
+    text-transform: uppercase;
+    text-align: end;
+    color: aliceblue;
+    text-shadow: 1px 2px 3px lightcyan;
+}
+.image img{
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.head-about h2{
+    margin-top: 40px;
+    text-align: center;
+    color: aqua;
+    text-transform: capitalize;
+}
+.parag-about{
+    padding: 10px;
+    text-align: justify;
+    color: floralwhite;
+}
+.Achievement-1{
+    color: #873e23;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.Achievement-2{
+    color: #051937;
+    font-size: 15px;
+    margin: 10px;
+}
+strong{
+    color:red;
+    font-size: 15px;
+}
+ul li {
+    list-style: none;
+    margin: 20px;
+    color: #fff;;
+}

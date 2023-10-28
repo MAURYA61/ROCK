@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fecbook{
+    margin-top: 160px;
+}
+.container{
+    margin-top:200px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+input{
+    margin:5px 0;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin:5px 0px;
+    background-color:blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+button:hover{
+    background-color:green;
+    color: white;
+}
